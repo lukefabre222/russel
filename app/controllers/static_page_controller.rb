@@ -1,7 +1,18 @@
 class StaticPageController < ApplicationController
-  def home
-  end
-  
   def index
   end
+  
+  def business
+  end
+  
+  def company
+  end
+  
+  def philosophy
+  end
+  
+  def recruit
+  end
+  
+  
 end

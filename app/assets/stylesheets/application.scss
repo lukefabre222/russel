@@ -82,7 +82,7 @@ p{
 .bg-mask{
   height: 100%;
   width: 100%;
-  background: rgba(255,255,255,0.5);
+  background: rgba(255,255,255,0.3);
   z-index:-1;
   position:absolute;
   top:0;
@@ -92,9 +92,10 @@ p{
 
 .jumbotron-css{
   height:400px;
-  padding-top:15px;
+  padding-top:30px;
   background-color:white;
-  color:black;
+  color:white;
+  border-radius:0rem;
 }
 
 .jumbotron-css h3{
@@ -125,12 +126,61 @@ p{
   background-repeat: no-repeat;
   background-size:cover;
   color:white;
+  padding-top:30px;
+  padding-bottom:20px;
+}
+
+.business-info-title{
+  padding-top:20px;
 }
 
 .business-info-item{
-  margin-top:20px;
+  background: rgba(0, 0, 0, 0.3);
+  margin-top:30px;
+  margin-bottom:20px;
+  padding:10px;
+  border-radius:1rem;
 }
 
+
+
+/* header */
+.navbar-dark .navbar-toggler {
+  color: rgba(0, 0, 0, 0.5);
+  border: none;
+  padding: 0px;
+  width: 30px;
+  height: 30px;
+  box-sizing: border-box;
+  position: relative;
+}
+.navbar-dark .navbar-toggler-icon {
+  background-image:none; /* この行で背景画像を無効化 */
+  background-color: #fff;
+  width: 30px;
+  height: 2px;
+  display: block;
+  position: absolute;
+  transition: ease .5s;
+}
+
+/* 3本のバーそれぞれの座標を設定 */
+.navbar-toggler-icon:nth-of-type(1) {top:7px;}
+.navbar-toggler-icon:nth-of-type(2) {top:14px;}
+.navbar-toggler-icon:nth-of-type(3) {top:21px;}
+
+/* メニューが開いている時の　3本のバーそれぞれの座標および角度を設定 */
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:nth-of-type(1) {
+top:13px;
+transform: rotate(45deg);
+}
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:nth-of-type(2) {
+opacity: 0;
+}
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:nth-of-type(3) {
+top:13px;
+transform: rotate(-45deg);
+}
 
 
 
@@ -153,7 +203,7 @@ p{
 
 .search-text .btn-search{
     background: #da3e44;
-    font-family:Roboto;
+    font-family: 'Sawarabi Gothic', sans-serif;
     border:none;
 	color:#FFF;
 	height: 45px;
