@@ -73,7 +73,7 @@ p{
 }
 
 #top-image{
-  background-image: image-url("top.png");
+  background-image: image-url("landing.png");
   background-position:center;
   background-repeat: no-repeat;
   background-size:cover;
@@ -84,6 +84,7 @@ p{
   width: 100%;
   background: rgba(255,255,255,0.3);
   z-index:-1;
+  box-sizing:border-box;
   position:absolute;
   top:0;
   left:0;
@@ -106,6 +107,8 @@ p{
 
 .jumbotron p{
   margin-top:40px;
+  font-weight:bold;
+  letter-spacing:2px;
 }
 
 
@@ -121,18 +124,25 @@ p{
 }
 
 .business-info{
-  background-image: image-url("landing.png");
+  background-image: image-url("business.png");
   background-position:center;
   background-repeat: no-repeat;
   background-size:cover;
   color:white;
   padding-top:30px;
   padding-bottom:20px;
+  height:250px;
+  z-index:2;
 }
 
 .business-info-title{
   padding-top:20px;
   font-weight:bold;
+  margin-bottom:80px;
+  width:40%;
+  margin-right:auto;
+  margin-left:auto;
+  border-bottom:solid 3px white;
 }
 
 .business-info-item{
@@ -143,10 +153,8 @@ p{
   border-radius:1rem;
 }
 
-
-/* link-page*/
-.link-page-title{
-  background-image: image-url("landing.png");
+.recruit-info{
+  background-image: image-url("recruit.png");
   background-position:center;
   background-repeat: no-repeat;
   background-size:cover;
@@ -154,15 +162,99 @@ p{
   padding-top:30px;
   padding-bottom:20px;
   height:250px;
-  display: flex;
+  z-index:1;
+  h3{
+    font-weight:bold;
+    margin-bottom:80px;
+    width:40%;
+    margin-right:auto;
+    margin-left:auto;
+    border-bottom:solid 3px white;
+  }
+}
+.philosophy-info{
+  background-image: image-url("philosophy.png");
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  color:white;
+  padding-top:30px;
+  padding-bottom:20px;
+  height:250px;
+  z-index:1;
+  h3{
+    font-weight:bold;
+    margin-bottom:80px;
+    width:40%;
+    margin-right:auto;
+    margin-left:auto;
+    border-bottom:solid 3px white;
+  }
+}
+.company-info{
+  background-image: image-url("company.png");
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  color:white;
+  padding-top:30px;
+  padding-bottom:20px;
+  height:250px;
+  z-index:1;
+  h3{
+    font-weight:bold;
+    margin-bottom:80px;
+    width:40%;
+    margin-right:auto;
+    margin-left:auto;
+    border-bottom:solid 3px white;
+  }
+}
+/* link-page*/
+.link-page-title{
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  color:white;
+  padding-top:30px;
+  padding-bottom:20px;
+  height:250px;
   justify-content: center;
   align-items: center;
   h3{
+    margin:0 auto;
     font-weight:bold;
+    padding-top:40px;
+    width:50%;
+    border-bottom:solid 3px white;
   }
 }
+.business-page{
+  background-image: image-url("business.png");
+}
+.recruit-page{
+  background-image: image-url("recruit.png");
+}
+.philosophy-page{
+  background-image: image-url("philosophy.png");
+}
+.company-page{
+  background-image: image-url("company.png");
+}
 
-
+.link-page-item{
+  text-align:center;
+  h2{
+    font-size:1.5rem;
+    font-weight:bold;
+    margin:0 auto;
+    width:60%;
+    border-bottom:solid 2px black;
+    margin-top:20px;
+    margin-bottom:10px;
+    padding:5px;
+  }
+}
 
 /* header */
 .navbar-dark .navbar-toggler {

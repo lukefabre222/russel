@@ -4,7 +4,7 @@
       <h3>
         まだ誰も知らない<br>未開の地へ
       </h3>
-      <p, class="right-content">
+      <p class="right-content">
         RUSSELは、<br>新しい挑戦をする人を応援します。
       </p>
     </div>
@@ -13,18 +13,16 @@
 
 <div class="row">
   <div class="col-md-12 jumbotron business-info">
-    <div class="container-fluid">
-      <h3 class="center business-info-title">事業案内</h3>
-      <p class="center">Russelのサービスをご紹介します</p>
-    </div>
-    <div class="row center">
-      
-      <div class="col-md-4 offset-md-4">
-        <%= link_to business_path, class:"btn btn-primary", method: :get do %>
-          詳しく見る<i class="fas fa-arrow-circle-right"></i>
-        <% end %>
+      <div class="container-fluid">
+        <h3 class="center business-info-title">事業案内</h3>
       </div>
-    </div>
+      <div class="row center">
+        <div class="col-md-4 offset-md-4">
+          <%= link_to business_path, class:"btn btn-primary", method: :get do %>
+            詳しく見る<i class="fas fa-arrow-circle-right"></i>
+          <% end %>
+        </div>
+      </div>
   </div>
 </div>
 
@@ -32,7 +30,6 @@
   <div class="col-md-12 jumbotron recruit-info">
     <div class="container-fluid">
       <h3 class="center">採用情報</h3>
-      <p class="center">新しい道を目指す、仲間を探しています</p>
         <div class="col-md-4 offset-md-4">
           <%= link_to recruit_path, class:"btn btn-primary", method: :get do %>
             詳しく見る<i class="fas fa-arrow-circle-right"></i>
@@ -46,7 +43,6 @@
   <div class="col-md-12 jumbotron philosophy-info">
     <div class="container-fluid">
       <h3 class="center">企業理念</h3>
-      <p class="center">RUSSELの想い、願い</p>
        <div class="col-md-4 offset-md-4">
         <%= link_to philosophy_path, class:"btn btn-primary", method: :get do %>
           詳しく見る<i class="fas fa-arrow-circle-right"></i>
