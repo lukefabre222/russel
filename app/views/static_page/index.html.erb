@@ -1,8 +1,12 @@
 <div class="row">
   <div class="col-md-12 center jumbotron jumbotron-css" id="top-image">
     <div class="bg-mask">
-    <h3>まだ誰も知らない<br>未開の地へ</h3>
-    <p class="right-content">RUSSELは、<br>新しい挑戦をする人を応援します。</p>
+      <h3>
+        まだ誰も知らない<br>未開の地へ
+      </h3>
+      <p, class="right-content">
+        RUSSELは、<br>新しい挑戦をする人を応援します。
+      </p>
     </div>
   </div>
 </div>
@@ -10,28 +14,11 @@
 <div class="row">
   <div class="col-md-12 jumbotron business-info">
     <div class="container-fluid">
-      <h3 class="center business-info-title"><i class="fas fa-business-time"></i>&ensp;事業案内</h3>
+      <h3 class="center business-info-title">事業案内</h3>
       <p class="center">Russelのサービスをご紹介します</p>
     </div>
     <div class="row center">
-      <div class="col-md-4">
-        <div class="business-info-item">
-          <h2>セールス支援</h2>
-          <p class="center">セールス</p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="business-info-item">     
-          <h2>イベント運営</h2>
-          <p class="center">イベント</p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="business-info-item">
-          <h2>WEB事業</h2>
-          <p class="center">うぇぶ</p>
-        </div>
-      </div>
+      
       <div class="col-md-4 offset-md-4">
         <%= link_to business_path, class:"btn btn-primary", method: :get do %>
           詳しく見る<i class="fas fa-arrow-circle-right"></i>
@@ -42,9 +29,9 @@
 </div>
 
 <div class="row center">
-  <div class="col-md-12 jumbotron ">
+  <div class="col-md-12 jumbotron recruit-info">
     <div class="container-fluid">
-      <h3 class="center"><i class="fas fa-handshake"></i>&ensp;採用情報</h3>
+      <h3 class="center">採用情報</h3>
       <p class="center">新しい道を目指す、仲間を探しています</p>
         <div class="col-md-4 offset-md-4">
           <%= link_to recruit_path, class:"btn btn-primary", method: :get do %>
@@ -56,9 +43,9 @@
 </div>
 
 <div class="row center">
-  <div class="col-md-12 jumbotron">
+  <div class="col-md-12 jumbotron philosophy-info">
     <div class="container-fluid">
-      <h3 class="center"><i class="fas fa-handshake"></i>&ensp;企業理念</h3>
+      <h3 class="center">企業理念</h3>
       <p class="center">RUSSELの想い、願い</p>
        <div class="col-md-4 offset-md-4">
         <%= link_to philosophy_path, class:"btn btn-primary", method: :get do %>
@@ -70,10 +57,9 @@
 </div>
 
 <div class="row center">
-  <div class="col-md-12 jumbotron">
+  <div class="col-md-12 jumbotron company-info">
     <div class="container-fluid">
-      <h3 class="center"><i class="fas fa-building"></i>&ensp;会社情報</h3>
-      <p class="center">RUSSELとは～</p>
+      <h3 class="center">会社情報</h3>
         <div class="col-md-4 offset-md-4">
           <%= link_to company_path, class:"btn btn-primary", method: :get do %>
             詳しく見る<i class="fas fa-arrow-circle-right"></i>
