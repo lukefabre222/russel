@@ -1,7 +1,12 @@
 default: &default
-  adapter: sqlite3
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  database: 729774872b394cada5963537774c6d97
   pool: 5
-  timeout: 5000
+  username:729774872b394cada5963537774c6d97
+  password:Russel19891212
+  host: mysql-2.mc.lolipop.lan
 
 development:
   <<: *default
@@ -12,6 +17,11 @@ test:
   database: db/test.sqlite3
 
 production:
-  <<: *default
-  adapter: postgresql
-  database: db/production.postgresql
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  database: 729774872b394cada5963537774c6d97
+  pool: 5
+  username:729774872b394cada5963537774c6d97
+  password:Russel19891212
+  host: mysql-2.mc.lolipop.lan
