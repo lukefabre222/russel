@@ -245,16 +245,23 @@ p{
 .link-page-item{
   text-align:center;
   h2{
-    font-size:1.5rem;
+    font-size:1.3rem;
     font-weight:bold;
     margin:0 auto;
     width:60%;
     border-bottom:solid 2px black;
     margin-top:20px;
-    margin-bottom:10px;
+    margin-bottom:15px;
     padding:5px;
   }
 }
+
+.philosophy-title{
+  h2{
+  width:70%;
+  }
+}
+
 /*table*/
 .table tr th{
     vertical-align: middle;  /* 中央揃え */
