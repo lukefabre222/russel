@@ -255,6 +255,14 @@ p{
     padding:5px;
   }
 }
+/*table*/
+.table tr th{
+    vertical-align: middle;  /* 中央揃え */
+}
+
+.table th, .table td {
+    vertical-align: middle; 
+}
 
 /* header */
 .navbar-dark .navbar-toggler {
