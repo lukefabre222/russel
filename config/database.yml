@@ -4,8 +4,8 @@ default: &default
   reconnect: false
   database: 729774872b394cada5963537774c6d97
   pool: 5
-  username:729774872b394cada5963537774c6d97
-  password:Russel19891212
+  username: 729774872b394cada5963537774c6d97
+  password: Russel19891212
   host: mysql-2.mc.lolipop.lan
 
 development:
@@ -22,6 +22,6 @@ production:
   reconnect: false
   database: 729774872b394cada5963537774c6d97
   pool: 5
-  username:729774872b394cada5963537774c6d97
-  password:Russel19891212
+  username: 729774872b394cada5963537774c6d97
+  password: Russel19891212
   host: mysql-2.mc.lolipop.lan
