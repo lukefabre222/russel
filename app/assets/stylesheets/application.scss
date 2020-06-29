@@ -66,6 +66,21 @@ p{
     height:40px;
   }
 }
+@media screen and (max-width:600px){
+  #logo{
+  float:left;
+  margin-left:15px;
+  margin-right:10px;
+  font-size: 20px;
+  color:#fff;
+  text-transform:uppercase;
+  letter-spacing:-1px;
+  font-weight:bold;
+  img{
+    height:25px;
+  }
+}  
+}
 
 #logo:hover{
   color:#fff;
@@ -290,6 +305,8 @@ p{
   position: absolute;
   transition: ease .5s;
 }
+
+
 
 /* 3本のバーそれぞれの座標を設定 */
 .navbar-toggler-icon:nth-of-type(1) {top:7px;}
